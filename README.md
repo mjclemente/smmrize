@@ -1,6 +1,5 @@
 # smmrize <!-- omit in toc -->
-A CFML wrapper for the [SMMRY API](https://smmry.com/api).  
-Utilize the SMMRY API to summarize articles, text, PDFs, etc. by extracting the most important sentences.
+A CFML wrapper for the [SMMRY API](https://smmry.com/api). Utilize the SMMRY API to summarize articles, text, PDFs, etc. by extracting the most important sentences.
 
 *Feel free to use the issue tracker to report bugs or suggest improvements!*
 
@@ -56,7 +55,7 @@ options = {
   'SM_KEYWORD_COUNT': 3,
   'SM_WITH_BREAK': true,
   'SM_WITH_ENCODE': true,
-  `SM_QUESTION_AVOID`: true
+  'SM_QUESTION_AVOID': true
 };
 ```
 
