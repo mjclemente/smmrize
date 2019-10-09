@@ -1,13 +1,22 @@
 {
-    "author":"",
-    "bugs":"",
+  "name": "smmrize",
+  "version": "1.0.0",
+  "author": "Matthew Clemente <mjclemente@gmail.com>",
+  "location": "mjclemente/smmrize#v1.0.0",
+  "homepage": "https://github.com/mjclemente/smmrize",
+  "documentation": "",
+  "repository": {
+    "type": "git",
+    "URL": "https://github.com/mjclemente/smmrize"
+  },
+  "bugs":"https://github.com/mjclemente/smmrize/issues",
+  "slug": "smmrize",
+  "shortDescription": "A CFML wrapper for the SMMRY API. Utilize the SMMRY API to summarize articles, text, PDFs, etc. This is done by extracting the most important sentences based on their algorithm.",
     "changelog":"",
     "contributors":[],
     "dependencies":{},
     "description":"",
     "devDependencies":{},
-    "documentation":"",
-    "homepage":"",
     "ignore":[
         "**/.*",
         "/test/",
@@ -15,24 +24,20 @@
     ],
     "installPaths":{},
     "instructions":"",
-    "keywords":[],
+    "keywords":[
+      "api",
+      "summarize",
+      "smmry"
+    ],
     "license":[
         {
-            "type":"",
-            "URL":""
+            "type":"MIT",
+            "URL":"https://github.com/mjclemente/smmrize/blob/master/LICENSE"
         }
     ],
-    "location":"ForgeboxStorage",
-    "name":"smmrize",
     "private":false,
     "projectURL":"",
-    "repository":{
-        "type":"",
-        "URL":""
-    },
     "scripts":{},
-    "shortDescription":"A CFML wrapper for the SMMRY API. Utilize the SMMRY API to summarize articles, text, PDFs, etc. This is done by extracting the most important sentences based on their algorithm.",
-    "slug":"smmrize",
     "testbox":{
         "bundles":"",
         "directory":"tests.specs",
@@ -52,6 +57,5 @@
         "watchDelay":500,
         "watchPaths":"**.cfc"
     },
-    "type":"modules",
-    "version":"0.0.0"
+    "type":"modules"
 }

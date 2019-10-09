@@ -5,7 +5,7 @@
 */
 component displayname="smmrize"  {
 
-  variables._smmrize_version = '0.0.0';
+  variables._smmrize_version = '1.0.0';
 
   public any function init(
     string apiKey = '',
