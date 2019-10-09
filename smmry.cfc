@@ -1,7 +1,7 @@
 /**
 * smmrize
 * Copyright 2019  Matthew J. Clemente, John Berquist
-* Licensed under MIT (https://mit-license.org)
+* Licensed under MIT (https://github.com/mjclemente/smmrize/blob/master/LICENSE)
 */
 component displayname="smmrize"  {
 
