@@ -133,8 +133,10 @@ component accessors="true" {
       function( item, index ) {
         if ( isStruct( item.value ) )
           return !item.value.isEmpty();
+        else if( isArray( item.value ) )
+          return arrayLen( item.value );
         else
-          return item.value.len();
+          return len( item.value );
       }
     );
   }
