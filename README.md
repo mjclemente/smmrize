@@ -27,7 +27,7 @@ writeDump( var='#summary#' );
 ## Setup and Usage
 To get started with SMMRY, you'll need an API key. You can get this by registering and following the instructions on the [SMMRY website](https://smmry.com/api).
 
-Once you have an API, you can provide it to this wrapper manually, as in the Quick Start example above, or via an environment variable named `SMMRY_API_KEY`.
+Once you have an API key, you can provide it to this wrapper manually, as in the Quick Start example above, or via an environment variable named `SMMRY_API_KEY`.
 
 The API can summarize either web-based content or text, via the `web()` and `text()` methods, respectively. Both these functions take an optional, second argument, which contains the settings for your summarization. The easiest way to provide these is via the `helpers.options` component, which provides a fluent interface for setting them. Here's an example:
 
