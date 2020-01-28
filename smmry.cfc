@@ -10,7 +10,8 @@ component displayname="smmrize"  {
   public any function init(
     string apiKey = '',
     string baseUrl = "https://api.smmry.com",
-    boolean includeRaw = false ) {
+    boolean includeRaw = false,
+    numeric httpTimeout = 50 ) {
 
     structAppend( variables, arguments );
 
@@ -161,7 +162,7 @@ component displayname="smmrize"  {
       ? ( '?' & parseQueryParams( queryParams, false ) )
       : '' );
 
-    cfhttp( url = fullPath, method = httpMethod,  result = 'result' ) {
+    cfhttp( url = fullPath, method = httpMethod,  result = 'result', timeout = variables.httpTimeout ) {
 
       if ( isJsonPayload( headers ) ) {
 
